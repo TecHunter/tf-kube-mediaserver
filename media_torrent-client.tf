@@ -71,11 +71,23 @@ resource "kubernetes_deployment" "torrent-client" {
           volume_mount {
             mount_path = "/config"
             sub_path   = "qbittorrent/config"
-            name       = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+            name       = "config-vol"
           }
           volume_mount {
             mount_path = "/downloads"
-            name       = kubernetes_persistent_volume_claim.tank-download-claim.metadata.0.name
+            name = "download-vol"
+          }
+        }
+        volume {
+          name = "config-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+          }
+        }
+        volume {
+          name = "download-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-download-claim.metadata.0.name
           }
         }
       }
@@ -98,6 +110,6 @@ resource "kubernetes_service" "torrent-client" {
       target_port = 8112
     }
 
-    type = "LoadBalancer"
+    type = "ClusterIP"
   }
 }

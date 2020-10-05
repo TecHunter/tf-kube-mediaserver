@@ -11,8 +11,8 @@ resource "kubernetes_persistent_volume_claim" "tank-config-claim" {
   }
 
   spec {
-    access_modes       = ["ReadWriteMany"]
-    storage_class_name = kubernetes_storage_class.local-storage.metadata.0.name
+    access_modes       = ["ReadWriteOnce"]
+    storage_class_name = "microk8s-hostpath"
     resources {
       requests = {
         storage = kubernetes_persistent_volume.tank-config.spec.0.capacity.storage
@@ -28,8 +28,8 @@ resource "kubernetes_persistent_volume_claim" "tank-media-claim" {
   }
 
   spec {
-    access_modes       = ["ReadWriteMany"]
-    storage_class_name = kubernetes_storage_class.local-storage.metadata.0.name
+    access_modes       = ["ReadWriteOnce"]
+    storage_class_name = "microk8s-hostpath"
     resources {
       requests = {
         storage = kubernetes_persistent_volume.tank-media.spec.0.capacity.storage
@@ -45,8 +45,8 @@ resource "kubernetes_persistent_volume_claim" "tank-download-claim" {
   }
 
   spec {
-    access_modes       = ["ReadWriteMany"]
-    storage_class_name = kubernetes_storage_class.local-storage.metadata.0.name
+    access_modes       = ["ReadWriteOnce"]
+    storage_class_name = "microk8s-hostpath"
     resources {
       requests = {
         storage = kubernetes_persistent_volume.tank-download.spec.0.capacity.storage

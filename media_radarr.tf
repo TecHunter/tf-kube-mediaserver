@@ -51,12 +51,24 @@ resource "kubernetes_deployment" "radarr" {
           volume_mount {
             mount_path = "/config"
             sub_path   = "radarr/config"
-            name       = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+            name       = "config-vol"
           }
           volume_mount {
             mount_path = "/movies"
             sub_path = "Movies"
-            name       = kubernetes_persistent_volume_claim.tank-media-claim.metadata.0.name
+            name       = "media-vol"
+          }
+        }
+        volume {
+          name = "config-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+          }
+        }
+        volume {
+          name = "media-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-media-claim.metadata.0.name
           }
         }
       }
@@ -79,6 +91,6 @@ resource "kubernetes_service" "radarr" {
       target_port = 7878
     }
 
-    type = "LoadBalancer"
+    type = "ClusterIP"
   }
 }

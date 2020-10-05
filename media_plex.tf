@@ -82,11 +82,24 @@ resource "kubernetes_deployment" "plex" {
           volume_mount {
             mount_path = "/config"
             sub_path   = "plex/config"
-            name       = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+            name = "config-vol"
           }
           volume_mount {
             mount_path = "/data"
-            name       = kubernetes_persistent_volume_claim.tank-media-claim.metadata.0.name
+            name = "media-vol"
+          }
+        }
+
+        volume {
+          name = "media-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-media-claim.metadata.0.name
+          }
+        }
+        volume {
+          name = "config-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
           }
         }
       }
@@ -109,6 +122,6 @@ resource "kubernetes_service" "plex" {
       target_port = 32400
     }
 
-    type = "LoadBalancer"
+    type = "ClusterIP"
   }
 }

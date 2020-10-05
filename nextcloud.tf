@@ -12,23 +12,14 @@ resource "kubernetes_persistent_volume" "nextcloud-data" {
 
   spec {
     capacity = {
-      storage = "100Gi"
+      storage = var.nextcloud.size
     }
-    storage_class_name = kubernetes_storage_class.local-storage.metadata.0.name
-    access_modes       = ["ReadWriteMany"]
-    node_affinity {
-      required {
-        node_selector_term {
-          match_expressions {
-            key      = "kubernetes.io/hostname"
-            operator = "In"
-            values   = ["ix.techunter.io"]
-          }
-        }
-      }
-    }
+    storage_class_name = "microk8s-hostpath"
+    persistent_volume_reclaim_policy = "Retain"
+    access_modes       = ["ReadWriteOnce"]
+    
     persistent_volume_source {
-      local {
+      host_path {
         path = "/tank/media/files"
       }
     }
@@ -42,11 +33,11 @@ resource "kubernetes_persistent_volume_claim" "nextcloud-claim" {
   }
 
   spec {
-    access_modes       = ["ReadWriteMany"]
-    storage_class_name = kubernetes_storage_class.local-storage.metadata.0.name
+    access_modes       = ["ReadWriteOnce"]
+    storage_class_name = "microk8s-hostpath"
     resources {
       requests = {
-        storage = var.nextcloud.size
+        storage = kubernetes_persistent_volume.nextcloud-data.spec.0.capacity.storage
       }
     }
     volume_name = kubernetes_persistent_volume.nextcloud-data.metadata.0.name
@@ -56,7 +47,7 @@ resource "kubernetes_persistent_volume_claim" "nextcloud-claim" {
 
 resource "helm_release" "nextcloud" {
   name              = "nextcloud"
-  chart             = "nextcloud/nextcloud"
+  chart             = "nextcloud"
   repository        = "https://nextcloud.github.io/helm/"
   dependency_update = true
   namespace         = kubernetes_namespace.nextcloud.metadata[0].name
@@ -88,7 +79,7 @@ resource "helm_release" "nextcloud" {
 
   set {
     name  = "persistence.accessMode"
-    value = "ReadWriteMany"
+    value = "ReadWriteOnce"
   }
 
   set {

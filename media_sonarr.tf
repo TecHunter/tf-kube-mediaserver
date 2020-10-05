@@ -51,12 +51,24 @@ resource "kubernetes_deployment" "sonarr" {
           volume_mount {
             mount_path = "/config"
             sub_path   = "sonarr/config"
-            name       = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+            name = "config-vol"
           }
           volume_mount {
             mount_path = "/tv"
             sub_path = "TVShows"
-            name       = kubernetes_persistent_volume_claim.tank-media-claim.metadata.0.name
+            name = "media-vol"
+          }
+        }
+        volume {
+          name = "config-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-config-claim.metadata.0.name
+          }
+        }
+        volume {
+          name = "media-vol"
+          persistent_volume_claim {
+            claim_name = kubernetes_persistent_volume_claim.tank-media-claim.metadata.0.name
           }
         }
       }
@@ -79,6 +91,6 @@ resource "kubernetes_service" "sonarr" {
       target_port = 8989
     }
 
-    type = "LoadBalancer"
+    type = "ClusterIP"
   }
 }

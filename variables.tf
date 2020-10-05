@@ -45,8 +45,6 @@ variable "plex_claim" {
 }
 
 variable "plex_ports" {
-  default = { 
-    ports = [1900, 3005, 5353,8324,32410,32412,32413,32414,32469]
-  }
+  default = [1900, 3005, 5353,8324,32410,32412,32413,32414,32469]
   description = "(optional) Plex ports, leave defaults"
 }
