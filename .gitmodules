@@ -1,0 +1,4 @@
+[submodule "terraform-provider-kubernetes-alpha"]
+	path = terraform-provider-kubernetes-alpha
+	url = https://github.com/hashicorp/terraform-provider-kubernetes-alpha.git
+        branch = v0.2.1

@@ -1,0 +1,2206 @@
+RAW provider 2020/10/02 14:34:20 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:34:20 Finished
+RAW provider 2020/10/02 14:34:20 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:34:21 Finished
+RAW provider 2020/10/02 14:35:34 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:35:34 Finished
+RAW provider 2020/10/02 14:35:34 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:35:35 Finished
+RAW provider 2020/10/02 14:37:57 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:37:57 Finished
+RAW provider 2020/10/02 14:38:26 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:38:26 Finished
+RAW provider 2020/10/02 14:41:09 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:41:09 Finished
+RAW provider 2020/10/02 14:41:10 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:41:10 Finished
+RAW provider 2020/10/02 14:43:37 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:43:37 Finished
+RAW provider 2020/10/02 14:43:38 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:43:38 Finished
+RAW provider 2020/10/02 14:44:12 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:44:12 Finished
+RAW provider 2020/10/02 14:44:13 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:44:13 Finished
+RAW provider 2020/10/02 14:47:52 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:47:52 Finished
+RAW provider 2020/10/02 14:47:52 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:47:53 Finished
+RAW provider 2020/10/02 14:50:00 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:50:00 Finished
+RAW provider 2020/10/02 14:50:00 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:50:00 Finished
+RAW provider 2020/10/02 14:50:01 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:50:01 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0000b86e0)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0000b8690)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc00042c480)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc00017c180)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc00042c480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0000b8690)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc00069c390)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc00042c480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 14:50:07 Finished
+RAW provider 2020/10/02 14:55:38 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:55:38 Finished
+RAW provider 2020/10/02 14:55:38 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:55:39 Finished
+RAW provider 2020/10/02 14:55:39 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:55:39 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc000622a50)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc000622a00)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc0004a8900)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc00017c180)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc0004a8900)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc000622a00)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc0006b4420)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc0004a8900)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 14:55:40 Finished
+RAW provider 2020/10/02 14:56:00 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:56:00 Finished
+RAW provider 2020/10/02 14:56:01 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:56:01 Finished
+RAW provider 2020/10/02 14:56:01 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 14:56:01 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0005197c0)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc000519770)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc00034a480)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc00020e840)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc00034a480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc000519770)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc0006894e0)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc00034a480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 14:56:04 Finished
+RAW provider 2020/10/02 15:00:53 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:00:53 Finished
+RAW provider 2020/10/02 15:00:53 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:00:53 Finished
+RAW provider 2020/10/02 15:00:54 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:00:54 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0002ee6e0)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0002ee690)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc0005806c0)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc00017c240)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005806c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0002ee690)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc000342d60)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005806c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:00:58 Finished
+RAW provider 2020/10/02 15:03:12 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:03:12 Finished
+RAW provider 2020/10/02 15:03:12 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:03:12 Finished
+RAW provider 2020/10/02 15:03:13 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:03:13 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0002c7bd0)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0002c7b80)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc000530900)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc0007a0780)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc000530900)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0002c7b80)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc000797540)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc000530900)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:03:16 Finished
+RAW provider 2020/10/02 15:21:03 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:21:03 Finished
+RAW provider 2020/10/02 15:21:04 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:21:04 Finished
+RAW provider 2020/10/02 15:21:04 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:21:04 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0000b85a0)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0000b8550)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc0005a8480)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc0004123c0)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005a8480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0000b8550)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc0007b0480)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005a8480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:21:08 Finished
+RAW provider 2020/10/02 15:23:36 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:23:36 Finished
+RAW provider 2020/10/02 15:23:36 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:23:36 Finished
+RAW provider 2020/10/02 15:23:37 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:23:37 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc00051ba90)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc00051ba40)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc00030c6c0)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc000662780)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc00030c6c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc00051ba40)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc0004242a0)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc00030c6c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:23:41 Finished
+RAW provider 2020/10/02 15:24:25 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:24:25 Finished
+RAW provider 2020/10/02 15:24:25 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:24:25 Finished
+RAW provider 2020/10/02 15:24:26 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:24:26 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0005afd10)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0005afcc0)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc0005ba6c0)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc0006cc780)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005ba6c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0005afcc0)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc0006bf400)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005ba6c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:24:29 Finished
+RAW provider 2020/10/02 15:28:35 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:28:35 Finished
+RAW provider 2020/10/02 15:28:36 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:28:36 Finished
+RAW provider 2020/10/02 15:28:36 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:28:37 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0000b9900)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0000b98b0)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc00068a6c0)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc000414b40)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc00068a6c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0000b98b0)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc0000c95f0)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc00068a6c0)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:28:40 Finished
+RAW provider 2020/10/02 15:34:38 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:34:39 Finished
+RAW provider 2020/10/02 15:34:39 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:34:39 Finished
+RAW provider 2020/10/02 15:34:39 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 15:34:40 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc00046e460)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc00046e410)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc000332480)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc00047c000)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc000332480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc00046e410)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc00046c390)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc000332480)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 15:34:43 Finished
+RAW provider 2020/10/02 16:31:06 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 16:31:06 Finished
+RAW provider 2020/10/02 16:31:06 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 16:31:07 Finished
+RAW provider 2020/10/02 16:31:07 Starting up with command line: []string{".terraform/plugins/registry.terraform.io/hashicorp/kubernetes-alpha/0.2.1/linux_amd64/terraform-provider-kubernetes-alpha_v0.2.1_x5"}
+RAW provider 2020/10/02 16:31:07 [Configure] Failed to load config:
+(*clientcmd.DeferredLoadingClientConfig)(0xc0005ae0f0)({
+ loader: (*clientcmd.ClientConfigLoadingRules)(0xc0005ae0a0)({
+  ExplicitPath: (string) "",
+  Precedence: ([]string) <nil>,
+  MigrationRules: (map[string]string) <nil>,
+  DoNotResolvePaths: (bool) false,
+  DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+  WarnIfAllMissing: (bool) false
+ }),
+ overrides: (*clientcmd.ConfigOverrides)(0xc0005a0900)({
+  AuthInfo: (api.AuthInfo) {
+   LocationOfOrigin: (string) "",
+   ClientCertificate: (string) "",
+   ClientCertificateData: ([]uint8) <nil>,
+   ClientKey: (string) "",
+   ClientKeyData: ([]uint8) <nil>,
+   Token: (string) "",
+   TokenFile: (string) "",
+   Impersonate: (string) "",
+   ImpersonateGroups: ([]string) <nil>,
+   ImpersonateUserExtra: (map[string][]string) <nil>,
+   Username: (string) "",
+   Password: (string) "",
+   AuthProvider: (*api.AuthProviderConfig)(<nil>),
+   Exec: (*api.ExecConfig)(<nil>),
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterDefaults: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  ClusterInfo: (api.Cluster) {
+   LocationOfOrigin: (string) "",
+   Server: (string) "",
+   TLSServerName: (string) "",
+   InsecureSkipTLSVerify: (bool) false,
+   CertificateAuthority: (string) "",
+   CertificateAuthorityData: ([]uint8) <nil>,
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  Context: (api.Context) {
+   LocationOfOrigin: (string) "",
+   Cluster: (string) "",
+   AuthInfo: (string) "",
+   Namespace: (string) "",
+   Extensions: (map[string]runtime.Object) <nil>
+  },
+  CurrentContext: (string) "",
+  Timeout: (string) ""
+ }),
+ fallbackReader: (io.Reader) <nil>,
+ clientConfig: (*clientcmd.DirectClientConfig)(0xc000650780)({
+  config: (api.Config) {
+   Kind: (string) "",
+   APIVersion: (string) "",
+   Preferences: (api.Preferences) {
+    Colors: (bool) false,
+    Extensions: (map[string]runtime.Object) {
+    }
+   },
+   Clusters: (map[string]*api.Cluster) {
+   },
+   AuthInfos: (map[string]*api.AuthInfo) {
+   },
+   Contexts: (map[string]*api.Context) {
+   },
+   CurrentContext: (string) "",
+   Extensions: (map[string]runtime.Object) {
+   }
+  },
+  contextName: (string) "",
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005a0900)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  fallbackReader: (io.Reader) <nil>,
+  configAccess: (*clientcmd.ClientConfigLoadingRules)(0xc0005ae0a0)({
+   ExplicitPath: (string) "",
+   Precedence: ([]string) <nil>,
+   MigrationRules: (map[string]string) <nil>,
+   DoNotResolvePaths: (bool) false,
+   DefaultClientConfig: (clientcmd.ClientConfig) <nil>,
+   WarnIfAllMissing: (bool) false
+  }),
+  promptedCredentials: (clientcmd.promptedCredentials) {
+   username: (string) "",
+   password: (string) ""
+  }
+ }),
+ loadingLock: (sync.Mutex) {
+  state: (int32) 0,
+  sema: (uint32) 0
+ },
+ icc: (*clientcmd.inClusterClientConfig)(0xc000645420)({
+  overrides: (*clientcmd.ConfigOverrides)(0xc0005a0900)({
+   AuthInfo: (api.AuthInfo) {
+    LocationOfOrigin: (string) "",
+    ClientCertificate: (string) "",
+    ClientCertificateData: ([]uint8) <nil>,
+    ClientKey: (string) "",
+    ClientKeyData: ([]uint8) <nil>,
+    Token: (string) "",
+    TokenFile: (string) "",
+    Impersonate: (string) "",
+    ImpersonateGroups: ([]string) <nil>,
+    ImpersonateUserExtra: (map[string][]string) <nil>,
+    Username: (string) "",
+    Password: (string) "",
+    AuthProvider: (*api.AuthProviderConfig)(<nil>),
+    Exec: (*api.ExecConfig)(<nil>),
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterDefaults: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   ClusterInfo: (api.Cluster) {
+    LocationOfOrigin: (string) "",
+    Server: (string) "",
+    TLSServerName: (string) "",
+    InsecureSkipTLSVerify: (bool) false,
+    CertificateAuthority: (string) "",
+    CertificateAuthorityData: ([]uint8) <nil>,
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   Context: (api.Context) {
+    LocationOfOrigin: (string) "",
+    Cluster: (string) "",
+    AuthInfo: (string) "",
+    Namespace: (string) "",
+    Extensions: (map[string]runtime.Object) <nil>
+   },
+   CurrentContext: (string) "",
+   Timeout: (string) ""
+  }),
+  inClusterConfigProvider: (func() (*rest.Config, error)) <nil>
+ })
+})
+
+RAW provider 2020/10/02 16:31:11 Finished
