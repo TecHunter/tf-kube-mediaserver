@@ -12,7 +12,7 @@ resource "kubernetes_ingress" "media" {
 
   spec {
     rule {
-      host = "media.techunter.io"
+      host = "media.192.168.1.105.nip.io"
       http {
         path {
           backend {
@@ -22,7 +22,7 @@ resource "kubernetes_ingress" "media" {
 
           path = "/torrent"
         }
-        
+
         path {
           backend {
             service_name = kubernetes_service.sonarr.metadata.0.name
@@ -31,7 +31,7 @@ resource "kubernetes_ingress" "media" {
 
           path = "/sonarr"
         }
-        
+
         path {
           backend {
             service_name = kubernetes_service.radarr.metadata.0.name
@@ -40,7 +40,7 @@ resource "kubernetes_ingress" "media" {
 
           path = "/radarr"
         }
-        
+
         path {
           backend {
             service_name = kubernetes_service.jackett.metadata.0.name
@@ -49,7 +49,7 @@ resource "kubernetes_ingress" "media" {
 
           path = "/jackett"
         }
-        
+
         path {
           backend {
             service_name = kubernetes_service.plex.metadata.0.name

@@ -14,10 +14,10 @@ resource "kubernetes_persistent_volume" "nextcloud-data" {
     capacity = {
       storage = var.nextcloud.size
     }
-    storage_class_name = "microk8s-hostpath"
+    storage_class_name               = "microk8s-hostpath"
     persistent_volume_reclaim_policy = "Retain"
-    access_modes       = ["ReadWriteOnce"]
-    
+    access_modes                     = ["ReadWriteOnce"]
+
     persistent_volume_source {
       host_path {
         path = "/tank/media/files"
@@ -106,7 +106,7 @@ resource "kubernetes_ingress" "nextcloud" {
     }
 
     rule {
-      host = "drive.techunter.io"
+      host = "drive.192.168.1.105.nip.io"
       http {
         path {
           backend {

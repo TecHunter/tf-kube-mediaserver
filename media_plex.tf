@@ -47,14 +47,14 @@ resource "kubernetes_deployment" "plex" {
           port {
             container_port = 32400
           }
-          
+
           dynamic "port" {
             for_each = var.plex_ports
             content {
               container_port = port.value
             }
           }
-          
+
           env {
             name  = "PGID"
             value = "1000"
@@ -67,7 +67,7 @@ resource "kubernetes_deployment" "plex" {
             name  = "TZ"
             value = "Europe/Paris"
           }
-          
+
           env {
             name = "PLEX_CLAIM"
             value_from {
@@ -82,11 +82,28 @@ resource "kubernetes_deployment" "plex" {
           volume_mount {
             mount_path = "/config"
             sub_path   = "plex/config"
-            name = "config-vol"
+            name       = "config-vol"
           }
           volume_mount {
             mount_path = "/data"
-            name = "media-vol"
+            name       = "media-vol"
+          }
+
+          readiness_probe {
+            http_get {
+              path = "/identity"
+              port = "32400"
+            }
+            initial_delay_seconds = 15
+            timeout_seconds       = 5
+          }
+          liveness_probe {
+            http_get {
+              path = "/identity"
+              port = "32400"
+            }
+            initial_delay_seconds = 10
+            timeout_seconds       = 10
           }
         }
 
@@ -109,14 +126,14 @@ resource "kubernetes_deployment" "plex" {
 
 resource "kubernetes_service" "plex" {
   metadata {
-    name = "plex"
+    name      = "plex"
     namespace = kubernetes_namespace.media.metadata.0.name
   }
   spec {
     selector = {
       app = kubernetes_deployment.plex.spec.0.template.0.metadata.0.labels.app
     }
-    
+
     port {
       port        = 32400
       target_port = 32400
