@@ -89,7 +89,7 @@ resource "helm_release" "nextcloud" {
 }
 
 resource "kubernetes_ingress" "nextcloud" {
-  depends_on = [helm_release.nginx-ingress]
+  depends_on = [helm_release.ingress]
   metadata {
     name      = "nextcloud-ingress"
     namespace = kubernetes_namespace.nextcloud.metadata.0.name

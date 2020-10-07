@@ -3,6 +3,8 @@ data "aws_route53_zone" "selected" {
   private_zone = false
   // will provide data.aws_route53_zone.selected.zone_id
 }
+
+data "aws_caller_identity" "current" {}
 /*
 
 resource "aws_acm_certificate" "default" {

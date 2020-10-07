@@ -129,6 +129,9 @@ resource "kubernetes_service" "plex" {
   metadata {
     name      = "plex"
     namespace = kubernetes_namespace.media.metadata.0.name
+    annotations = {
+      "external-dns.alpha.kubernetes.io/hostname" = "plex.${var.domain}"
+    }
   }
   spec {
     selector = {
