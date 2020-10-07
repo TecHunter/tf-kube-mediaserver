@@ -89,6 +89,7 @@ resource "helm_release" "nextcloud" {
 }
 
 resource "kubernetes_ingress" "nextcloud" {
+  depends_on = [helm_release.nginx-ingress]
   metadata {
     name      = "nextcloud-ingress"
     namespace = kubernetes_namespace.nextcloud.metadata.0.name
@@ -106,7 +107,7 @@ resource "kubernetes_ingress" "nextcloud" {
     }
 
     rule {
-      host = "drive.192.168.1.105.nip.io"
+      host = "drive.192.168.1.200.nip.io"
       http {
         path {
           backend {

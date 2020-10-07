@@ -5,6 +5,7 @@ variable "domain" {
 
 variable "aws" {
   default = {
+    region = "eu-central-1"
     id     = "IAMUSER"
     secret = "IAMPASS"
   }
@@ -12,6 +13,7 @@ variable "aws" {
 
 variable "route53-updater" {
   default = {
+    region = "eu-central-1"
     id     = "IAMUSER_FOR_ROUTE53"
     secret = "IAMPASS_FOR_ROUTE53"
   }
@@ -45,6 +47,6 @@ variable "plex_claim" {
 }
 
 variable "plex_ports" {
-  default = [1900, 3005, 5353,8324,32410,32412,32413,32414,32469]
+  default     = [1900, 3005, 5353, 8324, 32410, 32412, 32413, 32414, 32469]
   description = "(optional) Plex ports, leave defaults"
 }

@@ -1,0 +1,24 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+spec:
+  acme:
+    email: postman@techunter.io
+    server: https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+      - selector:
+          dnsZones:
+            - "${domain}"
+        dns01:
+          # Valid values are None and Follow
+          cnameStrategy: Follow
+          route53:
+            region: ${region}
+            accessKeyID: ${accessKeyID}
+            hostedZoneID: ${zone_id}
+            secretAccessKeySecretRef:
+              name: ${secret-name}
+              key: ${secret-key}

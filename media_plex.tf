@@ -88,7 +88,7 @@ resource "kubernetes_deployment" "plex" {
             mount_path = "/data"
             name       = "media-vol"
           }
-
+          /*
           readiness_probe {
             http_get {
               path = "/identity"
@@ -105,6 +105,7 @@ resource "kubernetes_deployment" "plex" {
             initial_delay_seconds = 10
             timeout_seconds       = 10
           }
+*/
         }
 
         volume {
@@ -139,6 +140,6 @@ resource "kubernetes_service" "plex" {
       target_port = 32400
     }
 
-    type = "ClusterIP"
+    type = "LoadBalancer"
   }
 }

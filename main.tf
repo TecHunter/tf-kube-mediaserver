@@ -12,6 +12,7 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.0"
     }
+
   }
 }
 
@@ -19,7 +20,7 @@ provider "kubernetes" {
 }
 
 provider "aws" {
-  region     = "eu-central-1"
+  region     = var.aws.region
   profile    = "default"
   access_key = var.aws.id
   secret_key = var.aws.secret
